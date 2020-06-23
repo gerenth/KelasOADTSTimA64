@@ -1,0 +1,157 @@
+/* Mulai code Anda dari baris terakhir */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Times New Roman";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-size:cover;
+  background-image: url(background.jpg);
+  color:white;
+  text-align: center;
+}
+
+.background.jpg {
+  -webkit-filter: blur(5px); /* Chrome, Opera */
+  filter: blur(5px);
+}
+
+.top-wrapper p {
+  color:#f1c40f;
+  font-weight: bold;
+}
+
+.top-wrapper h1 {
+  font-size: 48px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  font-size:24px;
+  letter-spacing:1px;
+  margin-bottom: 5px;
+  background-attachment: fixed;
+}
+
+.btn-wrapper {
+  margin: 15px 0;
+}
+
+.btn-wrapper p {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.signup {
+  background-color: #535c68;
+}
+
+.facebook {
+  background-color: #341f97;
+  margin-right: 20px;
+}
+
+.twitter {
+  background-color: #686de0;
+}
+
+.btn {
+  padding: 15px 30px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fab {
+  margin-right: 5px;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.paket-wrapper {
+  background-color: rgb(236, 240, 241);
+  text-align: center;
+}
+
+.container-paket {
+  height:500px;
+}
+.container-paket h1 {
+  text-align: center;
+  font-weight:700;
+  margin-top: 0px;
+  padding: 0;
+}
+
+.pakets {
+  float: left;
+  width: 50%;
+}
+
+.pakets {
+  display: inline-block;
+}
+
+.pakets-icon h3 {
+  margin-top:10px;
+  color: black;
+  font-size:25px;
+}
+
+.pakets-icon {
+  margin:20px 20px;
+  color: black;
+  font-size:25px;
+}
+
+.pakets-icon p {
+  margin-top:10px;
+  width: 100%;
+  color: black;
+}
+
+.txt-contents {
+  width: 80%;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.btnpaket:hover {
+  opacity: 1;
+  display:inline-block;
+}
