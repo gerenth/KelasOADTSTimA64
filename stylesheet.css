@@ -173,33 +173,33 @@ footer {
   }
 
 
-  img.car {
+  .car {
       width: 120px;
       z-index: 1;
       top: 115px;
       position: relative;
       animation-name: moveCar;
       animation-iteration-count: infinite;
-      animation-duration: 13s;
+      animation-duration: 5s;
       animation-timing-function: linear;
       animation-delay: 1s;
   }
-  img.motor {
+  .motor {
       width: 60px;
       z-index: 2;
       top: 115px;
       position: relative;
       animation-name: moveMotor;
       animation-iteration-count: infinite;
-      animation-duration: 13s;
+      animation-duration: 5s;
       animation-timing-function: linear;
       animation-delay: 1s;
   }
   @keyframes moveCar {
-      from {left: -150px}
-      to   {left: 100%;}
+      from {left: -50px}
+      to   {left: 40%;}
   }
   @keyframes moveMotor {
-      from {left: 100%;}
-      to   {left: -150px;}
+      from {left: 40%;}
+      to   {left: -50px;}
   }
